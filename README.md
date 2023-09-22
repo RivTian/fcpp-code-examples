@@ -1,4 +1,6 @@
 >  自用 |《C++ 函数式编程》配套源码
+>
+> 代码执行请 CV 到 main.cpp 中
 
 # Functional programming in C++
 
