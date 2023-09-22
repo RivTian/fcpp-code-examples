@@ -1,0 +1,18 @@
+{
+  "name" : "fcpp-code-examples",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "22fd3b5c3bef2d9f8076778f02584d96b1a3293c",
+  "dependencies" : [ {
+    "name" : "fmt",
+    "version>=" : "10.1.1"
+  }, {
+    "name" : "nlohmann-json",
+    "version>=" : "3.11.2"
+  }, {
+    "name" : "catch2",
+    "version>=" : "3.4.0"
+  }, {
+    "name" : "range-v3",
+    "version>=" : "0.12.0#1"
+  } ]
+}
