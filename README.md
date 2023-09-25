@@ -14,10 +14,10 @@ This repository contains runnable code examples from the book Functional Program
 
 The examples are separated into different directories based on the chapter of the book they belong to.
 
-- [`chapter-01`](https://gitlab.com/manning-fpcpp-book/code-examples/tree/master/chapter-01) - Introduction to functional programming
-- [`chapter-02`](https://gitlab.com/manning-fpcpp-book/code-examples/tree/master/chapter-02) - Getting started with functional programming
-- [`chapter-03`](https://gitlab.com/manning-fpcpp-book/code-examples/tree/master/chapter-03) - Functional objects
-- [`chapter-04`](https://gitlab.com/manning-fpcpp-book/code-examples/tree/master/chapter-04) - Creating new functions from the old ones
+- [`chapter-01`](https://github.com/RivTian/fcpp-code-examples/tree/main/src/chapter-01) - Introduction to functional programming
+- [`chapter-02`](https://github.com/RivTian/fcpp-code-examples/tree/main/src/chapter-02) - Getting started with functional programming
+- [`chapter-03`](https://github.com/RivTian/fcpp-code-examples/tree/main/src/chapter-03) - Functional objects
+- [`chapter-04`](https://github.com/RivTian/fcpp-code-examples/tree/main/src/chapter-04) - Creating new functions from the old ones
 
 The `common` directory contains files that are used in multiple different examples like the `person_t` type defined in the `<person.h>` header file.
 

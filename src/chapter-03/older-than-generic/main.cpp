@@ -1,4 +1,3 @@
-
 #include <iostream>
 #include <vector>
 #include <algorithm>
@@ -10,16 +9,14 @@
 class older_than {
 public:
     older_than(int limit)
-       : m_limit(limit)
-    {
+            : m_limit(limit) {
     }
 
     // Defining a call operator as a template function,
     // we will create a generic function object
     // that deduces the type of its argument when invoked
-    template <typename T>
-    bool operator() (T &&object) const
-    {
+    template<typename T>
+    bool operator()(T && object) const {
         return std::forward<T>(object).age() > m_limit;
     }
 
@@ -28,8 +25,7 @@ private:
 };
 
 
-int main(int argc, char *argv[])
-{
+int main(int argc, char * argv[]) {
     std::vector<person_t> persons;
 
     older_than predicate(42);
